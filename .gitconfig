@@ -1,0 +1,29 @@
+[color]
+	ui = true
+[merge]
+	tool = opendiff
+[alias]
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ci = commit
+	co = checkout
+	br = branch
+	pushall = push —recurse-submodules=on-demand
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[http]
+	sslVerify = true
+[core]
+	excludesfile = /Users/kamil/.gitignore_global
+	editor = vim
+[user]
+	name = Kamil Pluta
+	email = kamil.p@fresha.com
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[rerere]
+	enabled = true
