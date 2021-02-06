@@ -1,14 +1,25 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export ABBR_TIPS_PROMPT:\x5cn\U0001f4a1\x20\x5ce\x5b1m\x7b\x7b\x20\x2eabbr\x20\x7d\x7d\x5ce\x5b0m\x20\x3d\x3e\x20\x7b\x7b\x20\x2ecmd\x20\x7d\x7d
+SETUVAR --export ABBR_TIPS_REGEXES:\x28\x5e\x28\x5cw\x2b\x5cs\x2b\x29\x2b\x28\x2d\x7b1\x2c2\x7d\x29\x5cw\x2b\x29\x28\x5cs\x5cS\x2b\x29\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b3\x7d\x29\x2e\x2a\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b2\x7d\x29\x2e\x2a\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b1\x7d\x29\x2e\x2a
 SETUVAR AWS_DEFAULT_PROFILE:default
 SETUVAR AWS_PROFILE:default
 SETUVAR EDITOR:vim
 SETUVAR ERL_AFLAGS:\x2dkernel\x20shell_history\x20enabled
 SETUVAR VISUAL:vim
+SETUVAR ZO_CMD:zo
+SETUVAR Z_CMD:z
+SETUVAR Z_DATA:/Users/kamil/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/Users/kamil/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/Users/kamil\x24
+SETUVAR --export __ABBR_TIPS_KEYS:a__\x2e\x2e\x1ea__\x2e\x2e\x2e\x1ea__\x2e\x2e\x2e\x2e\x1ea__\x2e\x2e\x2e\x2e\x2e\x1ea__ahl\x1ea__analytics\x1ea__aws\x2dlogin\x1ea__aws\x2dshell\x1ea__be\x1ea__bi\x1ea__bookkeeper\x1ea__bu\x1ea__clear_docker\x1ea__clientnotifications\x1ea__clientnotificationspb\x1ea__clientnotificationsweb\x1ea__conduit\x1ea__config\x1ea__consultation_forms\x1ea__df\x1ea__dkc\x1ea__dkcb\x1ea__dkcl\x1ea__dkcr\x1ea__dkcu\x1ea__dotfiles\x1ea__du\x1ea__emptytrash\x1ea__flush\x1ea__flush_dns\x1ea__fresha\x1ea__freshaspa\x1ea__freshaweb\x1ea__frontend\x2dmonorepo\x1ea__gatekeeper\x1ea__google_reserve\x1ea__grep\x1ea__h\x1ea__ip\x1ea__jr\x1ea__jrbe\x1ea__jrbi\x1ea__jrbu\x1ea__kubectlproduction\x1ea__kubectlstaging\x1ea__l\x1ea__la\x1ea__ll\x1ea__lld\x1ea__mysql56restart\x1ea__mysql56start\x1ea__mysql56stop\x1ea__onboarding\x1ea__onboarding_web\x1ea__openfish\x1ea__openfishvariables\x1ea__platform\x1ea__ports\x1ea__postgresrestart\x1ea__postgresstart\x1ea__postgresstop\x1ea__projects\x1ea__refresh\x1ea__reloadfish\x1ea__reports\x1ea__reset_audio\x1ea__rmf\x1ea__seastore\x1ea__shedul\x1ea__shedullive\x1ea__shedulspa\x1ea__shedulumbrella\x1ea__shedulweb\x1ea__smser\x1ea__ss\x1ea__ss2\x1ea__sshuttleproduction\x1ea__sshuttlestaging\x1ea__staffnotifications\x1ea__staffnotificationsweb\x1ea__time_store\x1ea__warehouse\x1ea__web_helpers
+SETUVAR --export __ABBR_TIPS_VALUES:cd\x20\x2e\x2e\x1ecd\x20\x2e\x2e/\x2e\x2e\x1ecd\x20\x2e\x2e/\x2e\x2e/\x2e\x2e\x1ecd\x20\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/appointment_history_log\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/analytics\x1eaws\x2dvault\x20login\x20\x2dd\x208h\x1eaws\x2dvault\x20exec\x20\x2dd\x208h\x20\x2dn\x1ebundle\x20exec\x1ebundle\x20install\x1ecd\x20\x7e/projects/surgeventures/system/apps/bookkeeper\x1ebundle\x1edocker_remove_exited\x20\x26\x26\x20docker_remove_dangling\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/client_notifications\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/client_notifications_platform_bridge\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/client_notifications_web\x1ecd\x20\x7e/projects/surgeventures/system/apps/conduit\x1e/usr/bin/git\x20\x2d\x2dgit\x2ddir\x3d/Users/kamil/\x2ecfg/\x20\x2d\x2dwork\x2dtree\x3d/Users/kamil\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/consultation_forms\x1edf\x20\x2dh\x1edocker\x2dcompose\x1edkc\x20build\x1edkc\x20logs\x20\x2df\x20\x2d\x2dtail\x20200\x1edkc\x20run\x20\x2d\x2drm\x1edkc\x20up\x20\x2dd\x1ecd\x20/Users/kamil/dotfiles\x1edu\x20\x2dh\x20\x2dc\x1esudo\x20rm\x20\x2drfv\x20/Volumes/\x2a/\x2eTrashes\x3b\x20rm\x20\x2drfv\x20\x7e/\x2eTrash\x1edscacheutil\x20\x2dflushcache\x1esudo\x20dscacheutil\x20\x2dflushcache\x3bsudo\x20killall\x20\x2dHUP\x20mDNSResponder\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/fresha\x1ecd\x20\x7e/projects/surgeventures/system/apps/fresha\x2dspa\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/fresha_web\x1ecd\x20\x7e/projects/surgeventures/system/apps/frontend\x2dmonorepo\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/gatekeeper\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/google_reserve\x1egrep\x20\x2d\x2dcolor\x3dauto\x1ecd\x20\x7e\x1edig\x20\x2bshort\x20myip\x2eopendns\x2ecom\x20\x40resolver1\x2eopendns\x2ecom\x1ejruby\x20\x2dS\x1ejruby\x20\x2dS\x20bundle\x20exec\x1ejruby\x20\x2dS\x20bundle\x20install\x1ejruby\x20\x2dS\x20bundle\x1ekubectl\x20config\x20use\x2dcontext\x20production\x2d01\x1ekubectl\x20config\x20use\x2dcontext\x20arn\x3aaws\x3aeks\x3aus\x2deast\x2d1\x3a514443763038\x3acluster/staging\x2d01\x1els\x20\x2dlah\x20\x1els\x20\x2dAF\x20\x1els\x20\x2dlFh\x20\x1els\x20\x2dl\x20\x7c\x20grep\x20\x5ed\x1ebrew\x20services\x20restart\x20homebrew/versions/mysql56\x1ebrew\x20services\x20start\x20homebrew/versions/mysql56\x1ebrew\x20services\x20stop\x20homebrew/versions/mysql56\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/onboarding\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/onboarding_web\x1evim\x20\x7e/\x2econfig/fish/config\x2efish\x1evim\x20\x7e/\x2econfig/fish/fish_variables\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/platform\x1elsof\x20\x2diTCP\x20\x2dnP\x20\x2dsTCP\x3aLISTEN\x1ebrew\x20services\x20restart\x20postgresql\x1ebrew\x20services\x20start\x20postgresql\x1ebrew\x20services\x20stop\x20postgresql\x1ecd\x20\x7e/projects\x1ecd\x20\x7e/projects/surgeventures/system/apps/refresh\x1esource\x20\x7e/\x2econfig/fish/config\x2efish\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dreports\x1esudo\x20killall\x20coreaudiod\x1erm\x20\x2drf\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/sea_store\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/shedul_live\x1ecd\x20\x7e/projects/surgeventures/system/apps/frontend\x2dmonorepo/packages/shedul\x2dspa\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/shedul_web\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/smser\x1ecd\x20\x7e/projects/surgeventures/system\x1ecd\x20\x7e/projects/surgeventures/system2\x1esshuttle\x20\x2dv\x20\x2dr\x20kamil\x2epluta\x40bastion\x2dproduction\x2edev\x2eshedul\x2eio\x20172\x2e16\x2e0\x2e0/12\x20\x2d\x2dno\x2dlatency\x2dcontrol\x1esshuttle\x20\x2dv\x20\x2dr\x20kamil\x2epluta\x40bastion\x2dintegration\x2edev\x2eshedul\x2eio\x20172\x2e16\x2e0\x2e0/12\x20\x2d\x2dno\x2dlatency\x2dcontrol\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/staff_notifications\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/staff_notifications_web\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/time_store\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dwarehouse\x1ecd\x20\x7e/projects/surgeventures/system/apps/shedul\x2dumbrella/apps/web_helpers
 SETUVAR __fish_initialized:3100
+SETUVAR _fisher_PatrickF1_2F_fzf_2E_fish_files:/Users/kamil/\x2econfig/fish/functions/__fzf_extract_var_info\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__fzf_preview_file\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__fzf_report_file_type\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__fzf_search_current_dir\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__fzf_search_git_log\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__fzf_search_git_status\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__fzf_search_history\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__fzf_search_shell_variables\x2efish\x1e/Users/kamil/\x2econfig/fish/conf\x2ed/fzf\x2efish
+SETUVAR _fisher_gazorby_2F_fish_2D_abbreviation_2D_tips_files:/Users/kamil/\x2econfig/fish/functions/__abbr_tips_bind_newline\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__abbr_tips_bind_space\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__abbr_tips_init\x2efish\x1e/Users/kamil/\x2econfig/fish/conf\x2ed/abbr_tips\x2efish
+SETUVAR _fisher_jethrokuan_2F_z_files:/Users/kamil/\x2econfig/fish/functions/__z\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__z_add\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__z_clean\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/__z_complete\x2efish\x1e/Users/kamil/\x2econfig/fish/conf\x2ed/z\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/Users/kamil/\x2econfig/fish/functions/fisher\x2efish\x1e/Users/kamil/\x2econfig/fish/completions/fisher\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1epure\x2dfish/pure
-SETUVAR _fisher_pure_2D_fish_2F_pure_files:/Users/kamil/\x2econfig/fish/functions/_pure_check_for_new_release\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_format_time\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_get_prompt_symbol\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_is_single_line_prompt\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_parse_directory\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_parse_git_branch\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_place_iterm2_prompt_mark\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prefix_root_prompt\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_print_prompt\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_print_prompt_rows\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_beginning\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_command_duration\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_current_folder\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_ending\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_first_line\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_git\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_git_branch\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_git_dirty\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_git_pending_commits\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_git_stash\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_jobs\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_new_line\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_ssh\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_ssh_host\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_ssh_separator\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_ssh_user\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_symbol\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_system_time\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_vimode\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_prompt_virtualenv\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_set_color\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_set_default\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/_pure_string_width\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/fish_greeting\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/Users/kamil/\x2econfig/fish/functions/fish_title\x2efish\x1e/Users/kamil/\x2econfig/fish/conf\x2ed/_pure_init\x2efish\x1e/Users/kamil/\x2econfig/fish/conf\x2ed/pure\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejethrokuan/z\x1ePatrickF1/fzf\x2efish\x1egazorby/fish\x2dabbreviation\x2dtips
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -38,48 +49,3 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR pure_begin_prompt_with_current_directory:true
-SETUVAR pure_check_for_new_release:false
-SETUVAR pure_color_command_duration:pure_color_warning
-SETUVAR pure_color_current_directory:pure_color_primary
-SETUVAR pure_color_danger:red
-SETUVAR pure_color_dark:black
-SETUVAR pure_color_git_branch:pure_color_mute
-SETUVAR pure_color_git_dirty:pure_color_mute
-SETUVAR pure_color_git_stash:pure_color_info
-SETUVAR pure_color_git_unpulled_commits:pure_color_info
-SETUVAR pure_color_git_unpushed_commits:pure_color_info
-SETUVAR pure_color_info:cyan
-SETUVAR pure_color_jobs:pure_color_normal
-SETUVAR pure_color_light:white
-SETUVAR pure_color_mute:brblack
-SETUVAR pure_color_normal:normal
-SETUVAR pure_color_prefix_root_prompt:pure_color_danger
-SETUVAR pure_color_primary:blue
-SETUVAR pure_color_prompt_on_error:pure_color_danger
-SETUVAR pure_color_prompt_on_success:pure_color_success
-SETUVAR pure_color_ssh_hostname:pure_color_mute
-SETUVAR pure_color_ssh_separator:pure_color_mute
-SETUVAR pure_color_ssh_user_normal:pure_color_mute
-SETUVAR pure_color_ssh_user_root:pure_color_light
-SETUVAR pure_color_success:magenta
-SETUVAR pure_color_system_time:pure_color_mute
-SETUVAR pure_color_virtualenv:pure_color_mute
-SETUVAR pure_color_warning:yellow
-SETUVAR pure_enable_git:true
-SETUVAR pure_enable_single_line_prompt:false
-SETUVAR pure_reverse_prompt_symbol_in_vimode:true
-SETUVAR pure_separate_prompt_on_error:false
-SETUVAR pure_show_jobs:false
-SETUVAR pure_show_prefix_root_prompt:false
-SETUVAR pure_show_subsecond_command_duration:false
-SETUVAR pure_show_system_time:false
-SETUVAR pure_symbol_git_dirty:\x2a
-SETUVAR pure_symbol_git_stash:\u2261
-SETUVAR pure_symbol_git_unpulled_commits:\u21e3
-SETUVAR pure_symbol_git_unpushed_commits:\u21e1
-SETUVAR pure_symbol_prefix_root_prompt:\x23
-SETUVAR pure_symbol_prompt:\u276f
-SETUVAR pure_symbol_reverse_prompt:\u276e
-SETUVAR pure_symbol_title_bar_separator:\x2d
-SETUVAR pure_threshold_command_duration:5

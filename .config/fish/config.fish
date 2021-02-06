@@ -20,6 +20,8 @@ set -U AWS_DEFAULT_PROFILE default
 
 echo -e "\nsource "(brew --prefix asdf)"/asdf.fish" >> ~/.config/fish/config.fish
 
+source /usr/local/opt/asdf/asdf.fish
+
 set GOV (asdf where golang)
 export GOROOT=$GOV/go
 
@@ -28,53 +30,8 @@ alias config='/usr/bin/git --git-dir=/Users/kamil/.cfg/ --work-tree=/Users/kamil
 #PATH
 set -x PATH $HOME/bin /opt/confluent/bin /usr/local/opt/libarchive/bin $PATH
 
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
+# set starship as a shell. Keep at at the end of the file
+starship init fish | source
 
 source /usr/local/opt/asdf/asdf.fish
 
