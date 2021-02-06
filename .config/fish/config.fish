@@ -18,7 +18,7 @@ set -U ERL_AFLAGS "-kernel shell_history enabled"
 set -U AWS_PROFILE default
 set -U AWS_DEFAULT_PROFILE default
 
-echo -e "\nsource "(brew --prefix asdf)"/asdf.fish" >> ~/.config/fish/config.fish
+source (brew --prefix asdf)/asdf.fish
 
 source /usr/local/opt/asdf/asdf.fish
 
@@ -32,33 +32,3 @@ set -x PATH $HOME/bin /opt/confluent/bin /usr/local/opt/libarchive/bin $PATH
 
 # set starship as a shell. Keep at at the end of the file
 starship init fish | source
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
-
-source /usr/local/opt/asdf/asdf.fish
