@@ -56,13 +56,9 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 
 alias chrome="/Applications/Google\\ \\Chrome.app/Contents/MacOS/Google\\ \\Chrome"
 
-alias reload_zsh="source ~/.zshrc"
-alias open_zsh="$EDITOR ~/.zshrc"
-alias open_aliases="$EDITOR ~/.shell_aliases"
-
-alias reload_fish="source ~/.config/fish/config.fish"
-alias open_fish="$EDITOR ~/.config/fish/config.fish"
-alias open_fish_variables="$EDITOR ~/.config/fish/fish_variables"
+alias reloadzsh="source ~/.zshrc"
+alias openzsh="$EDITOR ~/.zshrc"
+alias openzshaliases="$EDITOR ~/.shell_aliases"
 
 # mysql
 alias mysql56start="brew services start homebrew/versions/mysql56"

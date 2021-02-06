@@ -139,7 +139,6 @@ export PATH="$HOME/bin:$PATH"
 
 export AWS_PROFILE=default
 export AWS_DEFAULT_PROFILE=default
-export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
 
 
 # add confluent platform to path

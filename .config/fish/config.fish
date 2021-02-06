@@ -1,42 +1,35 @@
-if [ -f "$HOME/.shell_aliases" ];
-then
-        source "$HOME/.shell_aliases"
+if [ -f "$HOME/.shell_fish_aliases" ]
+        source "$HOME/.shell_fish_aliases"
 else
         echo "shell aliases file not found!"
 end
 
-if [ -f "$HOME/.shell_custom" ];
-then
+if [ -f "$HOME/.shell_custom" ]
         source "$HOME/.shell_custom"
 else
         echo "shell custom file not found!"
 end
 
+set -U VISUAL vim
+set -U EDITOR "$VISUAL"
 
+set -U ERL_AFLAGS "-kernel shell_history enabled"
 
-export EDITOR="subl -n -w"
-export ALTERNATE_EDITOR="subl -n -w"
+set -U AWS_PROFILE default
+set -U AWS_DEFAULT_PROFILE default
 
-# works form OTP 20 - saves console history
-export ERL_AFLAGS="-kernel shell_history enabled"
-
-# exports
-
-
-export PATH="$HOME/bin:$PATH"
-
-export AWS_PROFILE=default
-export AWS_DEFAULT_PROFILE=default
-export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
-
-
-# add confluent platform to path
-export PATH="$PATH:/opt/confluent/bin"
-
-. /usr/local/opt/asdf/asdf.sh
-
+echo -e "\nsource "(brew --prefix asdf)"/asdf.fish" >> ~/.config/fish/config.fish
 
 set GOV (asdf where golang)
 export GOROOT=$GOV/go
 
-export PATH="/usr/local/opt/libarchive/bin:$PATH"
+alias config='/usr/bin/git --git-dir=/Users/kamil/.cfg/ --work-tree=/Users/kamil'
+
+#PATH
+set -x PATH $HOME/bin /opt/confluent/bin /usr/local/opt/libarchive/bin $PATH
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
