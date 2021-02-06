@@ -42,3 +42,23 @@ source /usr/local/opt/asdf/asdf.fish
 source /usr/local/opt/asdf/asdf.fish
 
 source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
+
+source /usr/local/opt/asdf/asdf.fish
