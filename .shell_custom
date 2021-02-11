@@ -1,0 +1,47 @@
+alias "ss"="cd ~/projects/surgeventures/system"
+alias "ss2"="cd ~/projects/surgeventures/system2"
+alias "analytics"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/analytics"
+alias "ahl"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/appointment_history_log"
+alias "bookkeeper"="cd ~/projects/surgeventures/system/apps/bookkeeper"
+alias "conduit"="cd ~/projects/surgeventures/system/apps/conduit"
+alias "fresha"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/fresha"
+alias "frontend-monorepo"="cd ~/projects/surgeventures/system/apps/frontend-monorepo"
+alias "freshaweb"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/fresha_web"
+alias "freshaspa"="cd ~/projects/surgeventures/system/apps/fresha-spa"
+alias "gatekeeper"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/gatekeeper"
+alias "consultation_forms"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/consultation_forms"
+alias "google_reserve"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/google_reserve"
+alias "refresh"="cd ~/projects/surgeventures/system/apps/refresh"
+alias "shedulumbrella"="cd ~/projects/surgeventures/system/apps/shedul-umbrella"
+alias "shedul"="cd ~/projects/surgeventures/system/apps/shedul"
+alias "shedullive"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/shedul_live"
+alias "platform"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/platform"
+alias "shedulweb"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/shedul_web"
+alias "seastore"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/sea_store"
+alias "staffnotifications"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/staff_notifications"
+alias "staffnotificationsweb"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/staff_notifications_web"
+alias "clientnotifications"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/client_notifications"
+alias "clientnotificationspb"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/client_notifications_platform_bridge"
+alias "clientnotificationsweb"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/client_notifications_web"
+alias "clientnotificationsweb"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/client_notifications_web"
+alias "web_helpers"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/web_helpers"
+alias "time_store"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/time_store"
+alias "smser"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/smser"
+alias "onboarding"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/onboarding"
+alias "onboarding_web"="cd ~/projects/surgeventures/system/apps/shedul-umbrella/apps/onboarding_web"
+alias "shedulspa"="cd ~/projects/surgeventures/system/apps/frontend-monorepo/packages/shedul-spa"
+alias "reports"="cd ~/projects/surgeventures/system/apps/shedul-reports"
+alias "warehouse"="cd ~/projects/surgeventures/system/apps/shedul-warehouse"
+
+alias "sshuttleproduction"="sshuttle -v -r kamil.pluta@bastion-production.dev.shedul.io 172.16.0.0/12 --no-latency-control"
+alias "sshuttlestaging"="sshuttle -v -r kamil.pluta@bastion-integration.dev.shedul.io 172.16.0.0/12 --no-latency-control"
+
+alias "kubectlstaging"="kubectl config use-context arn:aws:eks:us-east-1:514443763038:cluster/staging-01"
+alias "kubectlproduction"="kubectl config use-context production-01"
+
+# Virtual MFA users
+# start a shell session authenticated to AWS
+alias aws-shell='aws-vault exec -d 8h -n'
+
+# login to AWS console
+alias aws-login='aws-vault login -d 8h'
