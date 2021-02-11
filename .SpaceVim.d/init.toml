@@ -62,7 +62,6 @@
 [[layers]]
   name = "lsp"
   filetypes = [
-    "rust",
     "javascript",
     "ruby"
   ]
