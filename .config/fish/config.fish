@@ -25,7 +25,7 @@ source /usr/local/opt/asdf/asdf.fish
 set GOV (asdf where golang)
 export GOROOT=$GOV/go
 
-alias config='/usr/bin/git --git-dir=/Users/kamil/.cfg/ --work-tree=/Users/kamil'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 #PATH
 set -x PATH $HOME/bin /opt/confluent/bin /usr/local/opt/libarchive/bin $PATH
