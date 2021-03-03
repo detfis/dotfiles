@@ -19,12 +19,16 @@
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
     statusline_separator = "arrow"
-    statusline_iseparator = "arrow"
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
     autocomplete_method = "coc"
+    relativenumber = false
+    guifont = "Mono:h13"
 
+    bootstrap_before = 'detfisvim#before'
+    bootstrap_after = 'detfisvim#after'
+    
 # Enable autocomplete layer
 [[layers]]
   name = 'autocomplete'
@@ -65,3 +69,4 @@
     "javascript",
     "ruby"
   ]
+
