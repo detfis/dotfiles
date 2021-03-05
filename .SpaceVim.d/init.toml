@@ -65,11 +65,16 @@
   name = "lang#rust"
 
 [[layers]]
-    name = "incsearch" 
+  name = "lang#html"
+
+[[layers]]
+    name = "incsearch"
 
 [[layers]]
   name = "lsp"
   filetypes = [
+    "css",
+    "html",
     "javascript",
     "ruby",
     "rust"
