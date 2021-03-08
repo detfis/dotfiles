@@ -68,6 +68,9 @@
   name = "lang#html"
 
 [[layers]]
+  name = "lang#dockerfile"
+
+[[layers]]
     name = "incsearch"
 
 [[layers]]
