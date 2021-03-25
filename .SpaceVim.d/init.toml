@@ -32,7 +32,7 @@
 # Enable autocomplete layer
 [[layers]]
   name = 'autocomplete'
-  auto_completion_complete_with_key_sequence = "jn"
+  auto_completion_complete_with_key_sequence = "mn"
   auto_completion_return_key_behavior = "complete"
   auto_completion_tab_key_behavior = "smart"
 
