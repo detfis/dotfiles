@@ -71,6 +71,9 @@
   name = "lang#dockerfile"
 
 [[layers]]
+    name = "tmux"
+
+[[layers]]
     name = "incsearch"
 
 [[layers]]
