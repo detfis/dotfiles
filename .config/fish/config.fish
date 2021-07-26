@@ -1,3 +1,6 @@
+#PATH
+set -x PATH $HOME/bin /opt/confluent/bin /usr/local/opt/libarchive/bin /opt/homebrew/bin PATH
+
 if [ -f "$HOME/.shell_fish_aliases" ]
         source "$HOME/.shell_fish_aliases"
 else
@@ -20,15 +23,11 @@ set -U AWS_DEFAULT_PROFILE default
 
 source (brew --prefix asdf)/asdf.fish
 
-source /usr/local/opt/asdf/asdf.fish
-
 set GOV (asdf where golang)
 export GOROOT=$GOV/go
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-#PATH
-set -x PATH $HOME/bin /opt/confluent/bin /usr/local/opt/libarchive/bin $PATH
-
 # set starship as a shell. Keep at at the end of the file
 starship init fish | source
+
