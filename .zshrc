@@ -24,4 +24,6 @@ export AWS_DEFAULT_PROFILE=default
 alias config='/usr/bin/git --git-dir=/Users/kamil/.cfg/ --work-tree=/Users/kamil'
 alias config='/usr/bin/git --git-dir=/Users/kamil/.cfg/ --work-tree=/Users/kamil'
 
+export PATH=$HOME/.asdf/shims:$PATH
+
 eval "$(starship init zsh)"
